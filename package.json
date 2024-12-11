@@ -1,0 +1,24 @@
+{
+  "name": "tea-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "author": "gouri",
+  "license": "ISC",
+  "description": "a simple manager for diff tea",
+  "keywords": [
+    "express",
+    "tea"
+  ],
+  "dependencies": {
+    "express": "^4.21.2",
+    "exprss": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
